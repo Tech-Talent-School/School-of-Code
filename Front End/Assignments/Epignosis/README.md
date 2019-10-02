@@ -1,6 +1,6 @@
 # INSTRUCTIONS
 
-Prerequisites: Download the media associated with this assignment from this [**link**](#) and the web page template [**image**]().
+Prerequisites: Download the media associated with this assignment from this [**link**](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Tech-Talent-School/School-of-Code/tree/master/Front%20End/Assignments/Epignosis/media) and the web page template [**image**](https://raw.githubusercontent.com/Tech-Talent-School/School-of-Code/master/Front%20End/Assignments/Epignosis/epignosis.jpg).
 
 1) Create a web page according to the template using [**Bootstrap 4**](https://getbootstrap.com/)
 
