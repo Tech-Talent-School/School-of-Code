@@ -12,6 +12,8 @@ When confronted with a problem:
 - Ask a classmate
 - Post your question in the Slack Forum 
 
+Tip: begin by splitting the mockup into its [**separate sections**](https://raw.githubusercontent.com/Tech-Talent-School/School-of-Code/master/Front%20End/Assignments/Epignosis/epignosis-sections.jpg), and think how each section's layout can be recreated using Bootstrap 4 helper classes and/or using CSS and FlexBox.
+
 ## RESOURCES
 
 ### CSS Overflow
