@@ -9,5 +9,5 @@ on the opening hours ( 08:00 ~ 20:00 ). You must do the following:
 - 4) Add a check for holidays and make sure the "We are closed" is being displayed on the following dates:
     - 01/01, 25/03, 01/05, 28/20
 
-[Source code: company.html](./company.html)
-[Source code: company.css](./company.css)
+- [Source code: company.html](./company.html)
+- [Source code: company.css](./company.css)
