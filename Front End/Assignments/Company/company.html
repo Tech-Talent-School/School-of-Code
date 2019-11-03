@@ -1,0 +1,91 @@
+<!-- A Pen created at CodePen.io. You can find this one at https://codepen.io/kostasx/pen/PgGjRM. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat:400,700|Dancing+Script:400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="company.css">
+</head>
+<body>
+    <script>
+        const date = new Date();
+        // date.setFullYear(2020);  // Testing purposes only...
+        const currentYear = date.getFullYear();
+        const founded = 2005;
+        const yearsOfExperience = currentYear - founded;
+    </script>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <h1><span>Beauty</span>Landing Page</h1>
+        <h2>We are a competitive firm with over <script>document.write(yearsOfExperience);</script> years of experience in the field of computer generated probabilistic maintenance hybrid datasets.</h2>
+    </section>
+
+    <!-- Opening Hours: 08:00 - 20:00 -->
+    <script>
+        // Current time
+        let currentHour = date.getHours();
+        let isHoursPast7 = currentHour > 7;
+        let isHoursPrior21 = currentHour < 21;
+        console.log( isHoursPrior21 );
+        let isOpen = isHoursPast7 && isHoursPrior21;
+        // Compare time
+    </script>
+    <section>
+        <br>
+        <script>
+            if ( isOpen ){
+                document.write(
+                    '<div class="btn open">We are Open</div>'
+                    );
+                } else {
+                    document.write(
+                        '<div class="btn">We are Closed</div>'
+                    );
+            }
+        </script>
+    </section>
+
+    <!-- WHAT WE DO -->
+    <section id="what-we-do" class="section">
+        <div class="wrapper">
+            <h2 class="section__title">SOME TITLE</h2>
+            <p class="section__intro">
+                Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas faucibus mollis interdum. Curabitur blandit tempus porttitor.
+
+
+            </p>
+            <div class="box__grid">
+                <article class="box"><a class="box__content" href="#"><i class="fa fa-lightbulb-o fa-3x"></i>
+          <h3 class="box__title">Creative Idea</h3>
+          <p>Duis neque leo cursus ac libero ac imperdiet bibendum nisl mauris neque diam vulputate nem.</p><span class="box__more">Read more <i class="fa fa-arrow-right"></i></span></a></article>
+                <article class="box"><a class="box__content" href="#"><i class="fa fa-code fa-3x"></i>
+          <h3 class="box__title">Clean Code</h3>
+          <p>Duis neque leo cursus ac libero ac imperdiet bibendum nisl mauris neque diam vulputate nem.</p><span class="box__more">Read more <i class="fa fa-arrow-right"></i></span></a></article>
+                <article class="box"><a class="box__content" href="#"><i class="fa fa-mobile fa-3x"></i>
+          <h3 class="box__title">Mobile First</h3>
+          <p>Duis neque leo cursus ac libero ac imperdiet bibendum nisl mauris neque diam vulputate nem.</p><span class="box__more">Read more <i class="fa fa-arrow-right"></i></span></a></article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section section--cta">
+        <div class="wrapper">
+            <h2 class="section__title">SOME TITLE</h2>
+            <p class="section__intro">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas faucibus mollis interdum. Curabitur blandit tempus porttitor.</p><a class="btn" href="#">TEXT BUTTON</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2005 ~ <script>document.write( currentYear );</script> Landing Page</p>
+    </footer>
+
+</body>
+
+</html>
