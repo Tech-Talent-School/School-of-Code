@@ -1,0 +1,9 @@
+Make sure that the phrase "To be or not to be" ends with a period "." and not an extra space:
+
+We want this:
+
+"To be or not to be.";
+
+Not this:
+
+"To be or not to be ";
