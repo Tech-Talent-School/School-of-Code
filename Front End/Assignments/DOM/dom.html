@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DOM</title>
+    <style>
+        .btn { background-color: orange; }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="notice">
+            <strong>NOTICE</strong>
+        </div>
+    </div>
+    <p class="notice">2nd notice</p>
+    <script>
+
+        let notices = document.querySelectorAll(".notice");
+        let clock = notices[1];
+        
+        // setInterval( FUNCTION, MILLISECONDS );
+        function showTime(){
+            // Show current time:
+            const date = new Date();
+            const hours = date.getHours();
+            const minutes = date.getMinutes();
+            const seconds = date.getSeconds();
+            const time = hours + ":" + minutes + ":" + seconds;
+            clock.innerText = time;
+        }
+        setInterval( showTime, 1000 );
+
+        // setTimeout( FUNCTION, MILLISECONDS );
+        // Runs once after MILLISECONDS
+
+</script>
+</body>
+</html>
