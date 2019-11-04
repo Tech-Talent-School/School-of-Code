@@ -1,6 +1,6 @@
 ### ASSIGNMENT: DOM Manipulation
 
-- 1) Open dom.html and add a padding on the clock digits: instead of 1:5:34, we want 01:05:34
+#### 1) Open dom.html and add a padding on the clock digits: instead of 1:5:34, we want 01:05:34
 
 - Hint: convert to String:
 
@@ -18,6 +18,6 @@ String( num );  // 2)
 // => 6
 ```
 
-- 2) Add PM or AM next to time.
+#### 2) Add PM or AM next to time.
 
-- 3) Display a ul list with the days of the week. The current day will be highlighted in green. The rest on in orange background color. (hint: array index, ?). All content ul, li, CSS, must be created using JS.
+#### 3) Display a ul list with the days of the week. The current day will be highlighted in green. The rest on in orange background color. (hint: array index, ?). All content ul, li, CSS, must be created using JS.
